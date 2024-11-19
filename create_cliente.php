@@ -14,7 +14,6 @@ if($_SERVER ['REQUEST_METHOD'] == 'POST'){
         echo "Erro $sql <br>". $conn -> error; 
     }
 }
-
 ?>
 
 <!DOCTYPE html>
@@ -26,12 +25,9 @@ if($_SERVER ['REQUEST_METHOD'] == 'POST'){
 </head>
 <body>
     <form method="POST" action="create_cliente.php">
-        <label for="name" > Nome do Cliente:</label>
-        <input type="text" name="nome" require>
-        <label for="name" > Email do Cliente:</label>
-        <input type="email" name="email" require>
-        <label for="name" > Telefone do Cliente:</label>
-        <input type="text" name="telefone" require>
+        Nome do Cliente: <input type="text" name="nome" require>
+        Email do Cliente:<input type="email" name="email" require>
+        Telefone do Cliente: <input type="text" name="telefone" require>
         <input  type="submit" value="Cadastrar"> 
     </form>
 </body>
