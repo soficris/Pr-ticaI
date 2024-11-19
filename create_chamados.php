@@ -32,5 +32,7 @@ if($_SERVER ['REQUEST_METHOD'] == 'POST'){
         Data de Abertura: <input type="date" name="data_abertura" required>
         <input  type="submit" value="Cadastrar"> 
     </form>
+    <a href="vizualizar_chamado.php">Vizualizar chamados</a>
+    <a href="gerenciar_chamado.ph">Atualizar chamados</a>
 </body>
 </html>
