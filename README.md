@@ -6,6 +6,7 @@ Os chamados são classificados de acordo com a criticidade (baixa, média ou alt
 Com base nesse cenário, desenvolva uma aplicação para gerenciar os chamados de suporte. A aplicação deve atender aos seguintes requisitos:
 
 Cadastro de Clientes: Deve armazenar os dados do cliente: ID, nome, e-mail e telefone.
+
 Cadastro de Chamados: Deve permitir o registro dos seguintes dados para cada chamado:
   - ID do chamado.
   - ID do cliente.
