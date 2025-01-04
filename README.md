@@ -1,8 +1,8 @@
-- Contextualização
+- Contextualização:
 Uma empresa do setor de tecnologia está enfrentando dificuldades para gerenciar os atendimentos realizados por sua equipe de suporte técnico. O processo atual utiliza planilhas manuais, o que dificulta a organização, priorização e acompanhamento das demandas. Para melhorar a eficiência, a empresa decidiu implementar um sistema digital de gerenciamento de chamados.
 Os chamados são classificados de acordo com a criticidade (baixa, média ou alta) e o status (aberto, em andamento, resolvido). Cada chamado deve estar associado a um cliente e a um colaborador responsável. A empresa deseja que o sistema permita gerenciar os chamados de maneira eficiente e organizada, oferecendo maior visibilidade sobre o fluxo de atendimento.
 
-- Desafio
+- Desafio:
 Com base nesse cenário, desenvolva uma aplicação para gerenciar os chamados de suporte. A aplicação deve atender aos seguintes requisitos:
 
 Cadastro de Clientes: Deve armazenar os dados do cliente: ID, nome, e-mail e telefone.
