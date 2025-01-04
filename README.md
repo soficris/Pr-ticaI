@@ -7,13 +7,13 @@ Com base nesse cenário, desenvolva uma aplicação para gerenciar os chamados d
 
 Cadastro de Clientes: Deve armazenar os dados do cliente: ID, nome, e-mail e telefone.
 Cadastro de Chamados: Deve permitir o registro dos seguintes dados para cada chamado:
-  ID do chamado.
-  ID do cliente.
-  Descrição do problema.
-  Criticidade (baixa, média, alta).
-  Status (aberto, em andamento, resolvido) com valor padrão "aberto".
-  Data de abertura.
-  ID do colaborador responsável (opcional no cadastro inicial).
+  - ID do chamado.
+  - ID do cliente.
+  - Descrição do problema.
+  - Criticidade (baixa, média, alta).
+  - Status (aberto, em andamento, resolvido) com valor padrão "aberto".
+  - Data de abertura.
+  - ID do colaborador responsável (opcional no cadastro inicial).
 
 Gerenciamento de Chamados: Permitir a atualização do status e a designação ou troca do colaborador responsável por um chamado.
 Visualização: Mostrar os chamados em uma interface com filtros por status, criticidade e colaborador responsável.
